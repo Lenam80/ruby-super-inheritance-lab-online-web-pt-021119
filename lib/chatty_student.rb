@@ -8,4 +8,3 @@ class ChattyStudent
 
   chatty_student = ChattyStudent.new()
   chatty_student.hello 
-  
