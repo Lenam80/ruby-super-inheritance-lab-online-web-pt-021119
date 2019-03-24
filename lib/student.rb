@@ -6,6 +6,15 @@ def "Student" do
   let!(:student) { Student.new }
 end
 
-def returns_a_greeting_phrase
+def hello
   puts "Hey there! I'm so excited to learn stuff"
 end
+
+def raise_hand 
+  puts "Pick me!"
+end
+
+class ChattyStudent < Student 
+end 
+    
+
